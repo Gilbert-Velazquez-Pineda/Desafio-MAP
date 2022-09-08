@@ -1,8 +1,10 @@
-const ItemDetail = ( {item: {titulo, precio}} ) => {
+const ItemDetail = ( {item: {id, titulo}} ) => {
     return (
       <div className="m-5">
-          <div>{ titulo }</div>
-          <div>{ precio }</div>
+         <h1>{id}</h1>
+         <h1>{titulo}</h1>
+         
+         
       </div>
     )
   }
