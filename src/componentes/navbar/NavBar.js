@@ -18,7 +18,7 @@ const NavBar = () => {
                     <Link className="nav-link" to='/' >Inicio</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to='/SwapiContainer' >SwapiContainer</Link>
+                    <Link className="nav-link" to='/ItemDetail' >ItemDetail</Link>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to='/' >
