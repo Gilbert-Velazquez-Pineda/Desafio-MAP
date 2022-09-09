@@ -1,11 +1,19 @@
-const ItemDetail = ( {item: {id, titulo}} ) => {
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
+const ItemDetail = ( {item: {id, titulo, imagen, precio, descripcion}} ) => {
     return (
-      <div className="m-5">
-         <h1>{id}</h1>
-         <h1>{titulo}</h1>
-         
-         
-      </div>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={imagen} />
+      <Card.Body>
+        <Card.Title>{titulo}</Card.Title>
+        <Card.Body><strong>${precio} MXN</strong></Card.Body>
+        <Card.Text>
+          {descripcion}
+        </Card.Text>
+        <Button variant="primary">Comprar</Button>  <Button href='/' variant="secondary">Atras</Button>
+      </Card.Body>
+    </Card>
     )
   }
   export default ItemDetail
