@@ -18,7 +18,10 @@ const NavBar = () => {
                     <Link className="nav-link" to='/' >Inicio</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to='/ItemDetail' >ItemDetail</Link>
+                    <Link className="nav-link" to='/Catalago' >Catalago</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to='/SwapiContainer' >SweetApi</Link>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to='/' >

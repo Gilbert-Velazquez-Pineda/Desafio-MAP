@@ -11,7 +11,7 @@ const ItemDetail = ( {item: {id, titulo, imagen, precio, descripcion}} ) => {
         <Card.Text>
           {descripcion}
         </Card.Text>
-        <Button variant="primary">Comprar</Button>  <Button href='/' variant="secondary">Atras</Button>
+        <Button variant="primary">Comprar</Button>  <Button href='/Catalago' variant="secondary">Atras</Button>
       </Card.Body>
     </Card>
     )
