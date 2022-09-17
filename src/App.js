@@ -6,6 +6,7 @@ import Inicio from './componentes/paginas/Inicio'
 import ItemDetail from './componentes/navbar/ItemDetail';
 import SwapiContainer from './componentes/swapi/SwapiContainer';
 import ItemListContainer from './componentes/navbar/ItemListContainer'
+import CartWidget from './componentes/navbar/CartWidget';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
           <Routes>
           <Route exact path="/" element={<Inicio/>}/>
             <Route  path='/:id' element={<ItemDetail/>}/>
-            <Route exact path="/Catalago" element={<ItemListContainer/>}/>
+            <Route exact path="ItemListContainer" element={<ItemListContainer/>}/>
             <Route  path="/SwapiContainer" element={<SwapiContainer/>}/>
+            <Route  path="/CartWidget" element={<CartWidget/>}/>
           </Routes>
        </Router>
     </div>

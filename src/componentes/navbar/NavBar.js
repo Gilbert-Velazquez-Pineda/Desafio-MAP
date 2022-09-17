@@ -18,13 +18,13 @@ const NavBar = () => {
                     <Link className="nav-link" to='/' >Inicio</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to='/Catalago' >Catalago</Link>
+                    <Link className="nav-link" to='/ItemListContainer' >Catalago</Link>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to='/SwapiContainer' >SweetApi</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to='/' >
+                    <Link className="nav-link" to='/CartWidget' >
                     <CartWidget/>
                     </Link>
                   </li>

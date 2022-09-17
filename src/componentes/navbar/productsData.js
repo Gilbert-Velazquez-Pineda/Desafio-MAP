@@ -2,7 +2,7 @@ const products = [
     {
         titulo: "Traje a Rayas",
         precio: 1300.00,
-        descripcion: "item 1",
+        stock: 8,
         id: 1,
         imagen: "/image/ropa 1.jpg"
     },
@@ -10,7 +10,7 @@ const products = [
     {
         titulo: "Camisa Verano",
         precio: 780.99,
-        descripcion: "item 2",
+        stock: 5,
         id: 2,
         imagen: "/image/ropa 2.jpg"
     },
@@ -18,7 +18,7 @@ const products = [
     {
         titulo: "Traje Elegante",
         precio: 2300.00,
-        descripcion: "item 3",
+        stock: 4,
         id: 3,
         imagen: "/image/ropa 3.jpg" 
     },
@@ -26,27 +26,27 @@ const products = [
     {
         titulo: "Camisa Hippie",
         precio: 950.50,
-        descripcion: "item 4",
+        stock: 10,
         id: 4,
         imagen: "/image/ropa 4.jpg"
     },
 
     {titulo: "Smoking",
     precio: 3100.50,
-    descripcion: "item 5",
+    stock: 15,
     id: 5,
     imagen: "/image/ropa 5.jpg"},
 
     {titulo: "Chaleco de Nado",
     precio: 2599.99,
-    descripcion: "item 6",
+    stock: 7,
     id: 6,
     imagen: "/image/ropa 6.jpg"},
 
     {
     titulo: "Pechera Negra chica/mediana",
     precio: 1800.50,
-    descripcion: "item 7",
+    stock: 5,
     id: 7,
     imagen: "/image/ropa 7.jpg"
     },
@@ -54,7 +54,7 @@ const products = [
     {
         titulo: "Pechera Negra Grande/Extra Grande",
         precio: 2950.50,
-        descripcion: "item 8",
+        stock: 20,
         id: 8,
         imagen: "/image/ropa 8.jpg"
     },
@@ -63,7 +63,7 @@ const products = [
     {
      titulo: "Vestido Flor",
      precio: 549.99,
-     descripcion: "item 9",
+     stock: 16,
      id: 9,
      imagen: "/image/ropa 9.jpg"
     }

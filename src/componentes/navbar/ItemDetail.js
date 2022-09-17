@@ -5,7 +5,7 @@ import products from "./productsData"
 
 const ItemDetail = () => {
   
-  const [item, setItem] = useState({})
+  const [item, setItem] = useState([])
   const { id } = useParams() //traer el id del ItemListContainer
 
 
@@ -20,7 +20,7 @@ const ItemDetail = () => {
              setTest (data) 
        })
         
-    }, [])
+    }, [id])
 
     //se obtienen los datos del json */
 
@@ -46,6 +46,7 @@ const ItemDetail = () => {
   }
 
   return (
+
     <Item item={item}/>
   )
 }

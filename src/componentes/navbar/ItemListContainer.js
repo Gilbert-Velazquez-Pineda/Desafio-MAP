@@ -42,9 +42,9 @@ function ItemListContainer() {
                        <div className="m-2 p-2 bg-blue-300"> { item.titulo } </div>
                      </Link>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{item.descripcion}</p>
+                  <p className="mt-1 text-sm text-gray-700">Stock: { item.stock }</p>
                 </div>
-                <p className="text-sm font-medium text-gray-900">{item.precio}</p>
+                <p className="text-sm font-medium text-gray-900">precio: ${item.precio}</p>
               </div>
               
             </div>
